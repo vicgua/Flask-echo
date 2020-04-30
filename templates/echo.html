@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AWS Example</title>
+    </head>
+    <body>
+        {% if name %}
+        <h1>Echo test for {{ name }}</h1>
+        {% else %}
+        <h1>Echo test</h1>
+        {% endif %}
+
+        {% if msg %}
+        <p>{{ msg }}</p>
+        {% else %}
+        <p style="font-style: italic">(No message)</p>
+        {% endif %}
+    </body>
+</html>
